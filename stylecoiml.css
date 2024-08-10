@@ -1,0 +1,82 @@
+body{ 
+    scroll-behavior: smooth;
+}
+.para{
+    text-align: center;
+
+    background-color:aquamarine;
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    border-radius: 500px 500px 500px 500px;
+    font-size: large;
+}
+.para1{
+    text-align: center;
+
+    background-color: skyblue;
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px 500px 500px 5000px;
+    font-size: large;
+    box-shadow: 8px 0px 8px 0px;
+}
+.para2{
+    text-align: center;
+
+    background-color: powderblue;
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px 50px 50px 50px;
+    font-size: large;
+    box-shadow: 8px 0px 8px 0px;
+   
+}
+.para3{
+    text-align: center;
+
+    background-color: palegreen;
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px 50px;
+    font-size: large;
+}
+.table{
+    text-align: center;
+
+    background-color: aqua;
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px 50px 50px 50px;
+    font-size: large;
+    
+}
+.head:hover{
+    box-shadow:  0px 8px 15px rgb(246 90 100 / .55);
+    background: #db2595;
+    color: #fff;
+}
+.head1:hover{
+    box-shadow:  0px 8px 15px rgb(246 90 100 / .55);
+    background: #db2595;
+    color: #fff;
+   
+}
+.table:hover{
+    box-shadow:  0px 8px 15px rgb(246 90 100 / .55);
+    background: #db2595;
+    color: #fff;
+
+}
+.head3:hover{
+    box-shadow:  0px 8px 15px rgb(246 90 100 / .55);
+    background: #db2595;
+    color: #fff;
+   
+}
+
+

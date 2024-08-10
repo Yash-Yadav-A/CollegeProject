@@ -1,0 +1,22 @@
+.CONTACT{
+    background: #46aebe;
+    box-shadow: 0 0px 40px rgb(0 0 0 / .24);
+    max-width: 650px;
+    margin: auto;
+    border-radius: 50px;
+    color: bisque;
+    
+    
+}
+.INFO{
+    text-align: center;
+    color: aqua;
+}
+.context{
+    text-align: center;
+}
+.body{
+    background-image: url(blue-technology.jpg);
+    align-content: center;
+}
+   
