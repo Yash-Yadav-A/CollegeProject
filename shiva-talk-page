@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Boy Talking to Lord Shiva</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to top, #0c0c0c, #1c1c1c);
+      overflow: hidden;
+    }
+
+    .scene {
+      background-image: url('https://i.imgur.com/qIdI4IU.jpg'); /* Kailash background */
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      position: relative;
+      animation: backgroundMove 60s linear infinite;
+    }
+
+    @keyframes backgroundMove {
+      0% { background-position: center; }
+      100% { background-position: center top; }
+    }
+
+    .shiva {
+      position: absolute;
+      left: 15%;
+      bottom: 10%;
+      height: 350px;
+      animation: pulse 4s ease-in-out infinite;
+    }
+
+    .boy {
+      position: absolute;
+      right: 15%;
+      bottom: 8%;
+      height: 300px;
+      animation: boyMove 6s ease-in-out infinite;
+    }
+
+    .speech-bubble {
+      position: absolute;
+      right: 22%;
+      bottom: 35%;
+      background: white;
+      color: black;
+      padding: 15px;
+      border-radius: 20px;
+      max-width: 250px;
+      font-size: 18px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+      opacity: 0;
+      animation: fadeIn 3s ease-out forwards 2s;
+    }
+
+    .girl-silhouette {
+      position: absolute;
+      right: 5%;
+      top: 10%;
+      opacity: 0.15;
+      height: 200px;
+      animation: floatGirl 8s ease-in-out infinite;
+    }
+
+    .credit {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      font-size: 12px;
+      color: #aaa;
+    }
+
+    /* Animations */
+    @keyframes boyMove {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-5px); }
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.02); opacity: 0.95; }
+    }
+
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+
+    @keyframes floatGirl {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="scene">
+    <img class="shiva" src="https://i.imgur.com/Ff6FyoH.png" alt="Lord Shiva">
+    <img class="boy" src="https://i.imgur.com/w35nJAZ.png" alt="Sad Boy">
+    <div class="speech-bubble">She is not talking to me...</div>
+    <img class="girl-silhouette" src="https://i.imgur.com/3MZcMJt.png" alt="Girl Silhouette">
+  </div>
+
+  <div class="credit">Concept by Suraj · Animation by ChatGPT · Not for commercial use</div>
+
+</body>
+</html>
